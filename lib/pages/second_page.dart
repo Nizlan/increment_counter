@@ -31,7 +31,7 @@ class SecondPage extends StatelessWidget {
                       .add(CounterIncrement(state.counter)),
                   child: const Text(
                     '+',
-                    style: const TextStyle(fontSize: 40),
+                    style: TextStyle(fontSize: 40),
                   ),
                 ),
               ],
